@@ -68,10 +68,10 @@
 //     return 0;
 // }
 
-int main()
-{
-    char arr[] = "hello world";
-    memset(arr,'x',5);
-    printf("%s\n",arr);
-    return 0;
-}
+// int main()
+// {
+//     char arr[] = "hello world";
+//     memset(arr,'x',5);
+//     printf("%s\n",arr);
+//     return 0;
+// }

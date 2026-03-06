@@ -64,26 +64,26 @@
 //     return 0;
 // }
 
-int main()
-{
-    int arr[10] = {0};
-    //arr是首元素地址
-    //arr就是&arr[0]
-    int *P = arr;
-    //通过指针来访问数组
-    int sz = sizeof(arr) / sizeof(arr[0]);
-    int i = 0;
+// int main()
+// {
+//     int arr[10] = {0};
+//     //arr是首元素地址
+//     //arr就是&arr[0]
+//     int *P = arr;
+//     //通过指针来访问数组
+//     int sz = sizeof(arr) / sizeof(arr[0]);
+//     int i = 0;
 
-    for ( i = 0; i < sz; i++)
-    {
-        printf("%p ------%p\n", &arr[i], P + i);
-    }
+//     for ( i = 0; i < sz; i++)
+//     {
+//         printf("%p ------%p\n", &arr[i], P + i);
+//     }
     
-    // for (int i = 0; i < sz; i++)
-    // {
-    //     printf("%d ", *(P + i));
-    // }
-    return 0;
+//     // for (int i = 0; i < sz; i++)
+//     // {
+//     //     printf("%d ", *(P + i));
+//     // }
+//     return 0;
    
 
-}
+// }

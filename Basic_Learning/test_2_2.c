@@ -82,31 +82,31 @@
 //     return 0;
 // }
 
-int main()
-{
-  int a[3][4]= { 0 };
-  printf("%d\n",sizeof(a));//48
-  printf("%d\n",sizeof(a[0][0]));//8
-  printf("%d\n",sizeof(a[0]));//16
-  //a[0]是第一行一维数组的数组名，单独放在sizeof内部，表示整个一维数组
-  //sizeof(a[0])计算的是第一行大小
-  printf("%d\n",sizeof(a[0] + 1));//8
-  //第一行第二个元素地址
-  printf("%d\n",sizeof(*(a[0] + 1)));//8
-  printf("%d\n",sizeof(a + 1 ));//8
-  //a表示首元素地址，二维数组的首元素是它的第一行
-  printf("%d\n",sizeof(*(a + 1)));//16
-  //*(a+1)是第二行的地址解引用，拿到的是第二行
-  //*(a+1)-->a[1];
-  printf("%d\n",sizeof(&a[0] + 1));//8
-  printf("%d\n",sizeof(*(&a[0] + 1)));//16
-  printf("%d\n",sizeof(*a));//16
-  printf("%d\n",sizeof(a[3]));//16
+// int main()
+// {
+//   int a[3][4]= { 0 };
+//   printf("%d\n",sizeof(a));//48
+//   printf("%d\n",sizeof(a[0][0]));//8
+//   printf("%d\n",sizeof(a[0]));//16
+//   //a[0]是第一行一维数组的数组名，单独放在sizeof内部，表示整个一维数组
+//   //sizeof(a[0])计算的是第一行大小
+//   printf("%d\n",sizeof(a[0] + 1));//8
+//   //第一行第二个元素地址
+//   printf("%d\n",sizeof(*(a[0] + 1)));//8
+//   printf("%d\n",sizeof(a + 1 ));//8
+//   //a表示首元素地址，二维数组的首元素是它的第一行
+//   printf("%d\n",sizeof(*(a + 1)));//16
+//   //*(a+1)是第二行的地址解引用，拿到的是第二行
+//   //*(a+1)-->a[1];
+//   printf("%d\n",sizeof(&a[0] + 1));//8
+//   printf("%d\n",sizeof(*(&a[0] + 1)));//16
+//   printf("%d\n",sizeof(*a));//16
+//   printf("%d\n",sizeof(a[3]));//16
 
 
 
 
-  return 0;
+//   return 0;
 
-}
+// }
 

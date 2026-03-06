@@ -52,33 +52,33 @@
 
 //大小端存储判断
 
-int check_sys(int* a)
-{
-   return *(char*)a;
-}
+// int check_sys(int* a)
+// {
+//    return *(char*)a;
+// }
 
-int main()
-{
-   int a = 1;
+// int main()
+// {
+//    int a = 1;
 
-   int ret = check_sys(&a);
-   if(ret == 1)  
-   {
-      printf("小端存储\n");
-   }
-   else
-   {
-      printf("大端存储\n");
-   }
-   // char* p = (char*)&a;
-   // if(*p == 1)
-   // {
-   //    printf("小端存储\n");
-   // }
-   // else
-   // {
-   //    printf("大端存储\n");
-   // }
-   return 0;
+//    int ret = check_sys(&a);
+//    if(ret == 1)  
+//    {
+//       printf("小端存储\n");
+//    }
+//    else
+//    {
+//       printf("大端存储\n");
+//    }
+//    // char* p = (char*)&a;
+//    // if(*p == 1)
+//    // {
+//    //    printf("小端存储\n");
+//    // }
+//    // else
+//    // {
+//    //    printf("大端存储\n");
+//    // }
+//    return 0;
 
-}
+// }

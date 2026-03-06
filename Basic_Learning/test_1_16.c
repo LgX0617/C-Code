@@ -179,18 +179,18 @@
 // }
 
 
-int main()
-{
-    int i =0;
-    int arr[10]={0};
-    for(i=0;i<10;i++)
-    {
-        arr[i]=i;
-    }
+// int main()
+// {
+//     int i =0;
+//     int arr[10]={0};
+//     for(i=0;i<10;i++)
+//     {
+//         arr[i]=i;
+//     }
 
-    for(i=0;i<10;i++)
-    {
-        printf("%d\n",arr[i]);
-    }
-    return 0;
-}
+//     for(i=0;i<10;i++)
+//     {
+//         printf("%d\n",arr[i]);
+//     }
+//     return 0;
+// }

@@ -75,30 +75,30 @@
 //为什么返回char*呢？
 //是为了实现链式访问
 //strcpy函数的返回值是目标空间的起始地址
-char* my_strcpy(char* dest, const char* src)
-{
-    char* ret = dest;
-    //断言
-    assert(src != NULL);
-    assert(dest != NULL);
-    while(*dest++ = *src++)
-    {
-        ;
+// char* my_strcpy(char* dest, const char* src)
+// {
+//     char* ret = dest;
+//     //断言
+//     assert(src != NULL);
+//     assert(dest != NULL);
+//     while(*dest++ = *src++)
+//     {
+//         ;
        
-    }
-   return ret;
+//     }
+//    return ret;
 
-}
-int main()
-{
-    char arr1[20] = "xxxxxxxxxxxxx";
-    char arr2[] = "hello bit!";
-    char *p = NULL;
-    //strcpy在拷贝字符串的时候，会把\0也拷贝过去
-    printf("%s\n",my_strcpy (arr1,arr2));
-    printf("%s\n",arr2);
-    return 0;
-}
+// }
+// int main()
+// {
+//     char arr1[20] = "xxxxxxxxxxxxx";
+//     char arr2[] = "hello bit!";
+//     char *p = NULL;
+//     //strcpy在拷贝字符串的时候，会把\0也拷贝过去
+//     printf("%s\n",my_strcpy (arr1,arr2));
+//     printf("%s\n",arr2);
+//     return 0;
+// }
 
 // int main()
 // {

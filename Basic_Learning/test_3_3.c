@@ -32,22 +32,22 @@
 //     print2(&s);//传址调用
 // }
 
-struct S
-{
-    int _a : 3;
-    int _b : 4;
-    int _c : 5;
-    int _d : 4;
+// struct S
+// {
+//     int _a : 3;
+//     int _b : 4;
+//     int _c : 5;
+//     int _d : 4;
    
-};
-int main()
-{
-    struct S s = { 0};
-    printf("%d\n",sizeof(struct S));
-    s._a = 10;
-    s._b = 12;
-    s._c = 3;
-    s._d = 4;
+// };
+// int main()
+// {
+//     struct S s = { 0};
+//     printf("%d\n",sizeof(struct S));
+//     s._a = 10;
+//     s._b = 12;
+//     s._c = 3;
+//     s._d = 4;
 
-    return 0;
-}
+//     return 0;
+// }
