@@ -24,14 +24,27 @@ typedef struct PeoInfo
 
 
 //通讯录
+
+//静态版本
+// typedef struct Contact
+// {
+//     PeoInfo data[MAX];//存放人的信息
+//     int count;//记录通讯录中实际人数
+// }Contact;
+
+//动态版本
 typedef struct Contact
 {
-    PeoInfo data[MAX];//存放人的信息
+    PeoInfo* data;//存放人的信息
     int count;//记录通讯录中实际人数
+    int capacity;//当前通讯录容量
 }Contact;
 
 //初始化通讯录
 void InitContact(Contact* pc);
+
+//销毁通讯录
+void DestroyContact(Contact* pc);
 
 //添加通讯录联系人
 void AddContact(Contact* pc);

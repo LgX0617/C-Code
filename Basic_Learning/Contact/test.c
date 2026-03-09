@@ -57,6 +57,7 @@ int main()
                  SortContact(&con);
                 break;
             case EXIT:
+                DestroyContact(&con);
                 printf("退出通讯录");
                 break;
             default:
